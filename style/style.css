@@ -1,0 +1,85 @@
+body {
+  background-color: #19a2ae;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: -770px -590px, 125px 235px;
+}
+
+.container {
+  background-color: white;
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.container-style {
+  margin-top: 150px;
+  background-image: url("../images/bg-pattern-card.svg");
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 150px;
+  position: relative;
+}
+
+.imagen {
+  width: 100px;
+  margin: auto;
+}
+
+img {
+  border: solid 7px white;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 85px;
+}
+
+.informacion {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.titulo {
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.parrafo {
+  font-weight: 400;
+  color: #6a6f81;
+}
+
+.contenido-follow {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.contenido-follow {
+  border-top: solid 1px #969696;
+}
+
+.follow p {
+  margin-bottom: 5px;
+}
+
+.follow span {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-position: -300px -600px, 640px 330px;
+  }
+  .container-style {
+    margin-top: 100px;
+  }
+  .container {
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
